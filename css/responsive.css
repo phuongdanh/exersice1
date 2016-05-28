@@ -1,0 +1,272 @@
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  section .main_content .item span.title {
+    font-size: 18px;
+    margin-top: 230px;
+    display: none;
+  }
+  section .main_content .item span.title2 {
+    display: block;
+    font-size: 14px;
+  }
+  section .main_content .item .right {
+    width: 100%;
+    margin: 20px auto;
+    align-content: center;
+  }
+  section .main_content .subcribe .extra {
+    display: none;
+  }
+  section .main_content .subcribe .mid {
+    width: 100%;
+  }
+  section .main_content .subcribe form {
+    text-align: center;
+    margin: 0px auto;
+  }
+  section .main_content .subcribe form .form-control {
+    margin-left: 10px;
+    width: 150px;
+    height: 45px;
+    float: left;
+  }
+  section .main_content .subcribe form button {
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+  }
+  section .main_content .subcribe form label {
+    width: 100%;
+    font-size: 18px;
+    float: none;
+    clear: both;
+  }
+  footer .container .item form {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  section .main_content .item span.title {
+    font-size: 18px;
+    margin-top: 230px;
+    display: none;
+  }
+  section .main_content .item span.title2 {
+    display: block;
+  }
+  section .main_content .item .right {
+    width: 100%;
+    margin: 20px auto;
+    align-content: center;
+  }
+  section .main_content .subcribe form {
+    text-align: center;
+    margin: 0px auto;
+  }
+  section .main_content .subcribe form .form-control {
+    margin-left: 10px;
+    width: 150px;
+    height: 45px;
+    float: left;
+  }
+  section .main_content .subcribe form button {
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+  }
+  section .main_content .subcribe form label {
+    width: 100%;
+    font-size: 18px;
+    float: none;
+    clear: both;
+  }
+  footer .container .item form {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  section .main_content .item span.title {
+    display: none;
+  }
+  section .main_content .item span.title2 {
+    display: block;
+  }
+  section .main_content .item .right {
+    width: 370px;
+    margin: 20px auto;
+    align-content: center;
+  }
+  section .main_content .subcribe form {
+    text-align: center;
+    margin: 0px auto;
+  }
+  section .main_content .subcribe form .form-control {
+    margin-left: 10px;
+    width: 68%;
+    height: 45px;
+    float: left;
+  }
+  section .main_content .subcribe form button {
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+  }
+  section .main_content .subcribe form label {
+    width: 100%;
+    font-size: 18px;
+    float: none;
+    clear: both;
+  }
+  footer .container .item form {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  section .main_content .item span.title {
+    margin-top: 160px;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  section .main_content .subcribe form .form-control {
+    margin-left: 10px;
+    width: 300px;
+    height: 45px;
+  }
+  section .main_content .subcribe form button {
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  section .main_content .subcribe form label {
+    font-size: 15px;
+  }
+  footer .container .item form {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  section .main_content .item span.title {
+    margin-top: 200px;
+    margin-left: 30px;
+  }
+  section .main_content .subcribe form .form-control {
+    margin-left: 10px;
+    width: 410px;
+  }
+  section .main_content .subcribe form label {
+    font-size: 18px;
+  }
+  footer .container .item form {
+    padding-top: 20px;
+  }
+  footer .container .item form input {
+    border-color: #343638;
+    border-radius: 0px;
+    float: left;
+    width: 140px;
+    height: 45px;
+    font-style: italic;
+  }
+  footer .container .item form button {
+    background-color: #343638;
+    color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    float: left;
+    height: 45px;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1999px) {
+  section .main_content .item span.title {
+    margin-top: 200px;
+    margin-left: 30px;
+  }
+  section .main_content .subcribe form .form-control {
+    margin-left: 10px;
+    width: 410px;
+  }
+  section .main_content .subcribe form label {
+    font-size: 18px;
+  }
+  footer .container .item form {
+    padding-top: 20px;
+  }
+  footer .container .item form input {
+    border-color: #343638;
+    border-radius: 0px;
+    float: left;
+    width: 140px;
+    height: 45px;
+    font-style: italic;
+  }
+  footer .container .item form button {
+    background-color: #343638;
+    color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    float: left;
+    height: 45px;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  section .main_content .item span.title {
+    margin-top: 255px;
+    margin-left: 30px;
+  }
+  section .main_content .subcribe form .form-control {
+    margin-left: 73px;
+    width: 430px;
+  }
+  section .main_content .subcribe form label {
+    font-size: 24px;
+  }
+  footer .container .item form {
+    padding-top: 20px;
+  }
+  footer .container .item form input {
+    border-color: #343638;
+    border-radius: 0px;
+    float: left;
+    width: 177px;
+    height: 50px;
+    font-style: italic;
+  }
+  footer .container .item form button {
+    background-color: #343638;
+    color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    float: left;
+    height: 50px;
+    padding-right: 17px;
+    padding-left: 17px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  header .toper_wrapper .node {
+    display: block;
+  }
+  header .toper_wrapper .menu_wrapper {
+    display: none;
+    z-index: 10000;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .row{
+  	margin: 0px;
+  	padding: 0px;
+  }
+}

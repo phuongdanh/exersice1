@@ -1,0 +1,632 @@
+body{
+	font-family: arial;
+	color: #252525;
+}
+.clr{
+	clear: both;
+}
+ul{
+	padding: 0px;
+}
+li{
+	list-style: none;
+}
+.container{
+	padding: 0px;
+}
+header{
+	width: 100%;
+}
+header .toper_wrapper{
+	background-color: #000000;
+	width: 100%;
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+header .toper_wrapper .logo{
+}
+header .toper_wrapper .logo span{
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+}
+header .toper_wrapper {
+	.node{
+			background-color: #000000;
+			border:none;
+			float: right;
+			display: none;
+		}
+	.menu_wrapper{
+	float: right;
+	.list-inline{
+		li{
+			a, a:hover, a:focus{
+				color: #ffffff;
+				font-size: 14px;
+				padding: 15px;
+				
+			}
+			& a:hover, a:focus{
+				text-decoration: none;
+			}
+
+
+		}
+		.dropdown-menu{
+			left: -89px;
+			background-color: #999999;
+			text-align: right;
+			li{
+				a:hover{
+					color: #111111;
+				}
+			}
+		}
+		
+	}
+	
+  }
+}
+.active{
+	border-bottom: 2px solid #ffffff;
+}
+/*----------------------------------------------------end_header---------------------------*/
+/*----------------------------------------------------start_content---------------------------*/
+section .intro_content{
+	padding-top: 128px;
+	padding-bottom: 128px;
+}
+section .intro_content ul{
+	margin: 0px;
+	padding: 0px;
+}
+section .intro_content ul li{
+	list-style: none;
+}
+section .intro_content ul .left p{
+	font-size: 24px;
+}
+section .intro_content ul .right p{
+	font-size: 14px;
+	text-align: justify;
+}
+section .main_content{
+	background-color: #f3f3f3;
+	padding-top: 145px;
+	padding-bottom: 112px;
+}
+section .main_content span.title{
+	font-size: 24px;
+}
+section .main_content .item{
+	margin-top: 80px;
+	position: relative;
+}
+section .main_content .item img{
+	width: 100%;
+	z-index: -100;
+}
+section .main_content .item div{
+	float: right;
+	padding-right: 100px;
+	
+}
+section .main_content .item span.like{
+	position: absolute;
+	padding: 10px 15px;
+	background-color: #605e5f;
+	color: #ffffff;
+	border:2px solid #ffffff;
+	font-size: 14px;
+	margin-top: 20px;
+}
+section .main_content .item{
+	span.title{
+		position: absolute;
+		font-size: 18px;
+		color:#ffffff;
+		float: left;
+		margin-top: 255px;
+		margin-left: 30px;
+	}
+}
+section .main_content .item{
+	span.title2{
+		font-size: 18px;
+		color:#999999;
+		display: none;
+	}
+}
+
+@mixin input_mixin{
+	border-color: #343638;
+	border-radius: 0px;
+	float: left;
+}
+@mixin button_mixin{
+	background-color:#343638; 
+	color: #ffffff;
+	border:none;
+	border-radius: 0px; 
+	float: left;
+}
+section .main_content .subcribe{
+		background: #ffffff;
+		padding-top: 65px;
+		padding-bottom: 65px;
+		margin-top: 118px;
+		ul{
+			padding-bottom: 50px;
+		}
+		form{
+			label{
+				float: left;
+				margin-top: 15px;
+				font-size: 24px;
+				font-weight: normal;
+			}
+			.form-control{
+			 	height: 60px;
+				width: 430px;
+				margin-left: 73px;
+				@include input_mixin;
+			}
+			button{
+				height: 60px;
+				padding-left:30px;
+				padding-right: 30px;
+				@include button_mixin;
+			}
+		}	
+}
+
+
+/*-------------------------------------------------------------------------------end_content_----------------------*/
+/*-------------------------------------------------------------------------------start_footer_----------------------*/
+footer{
+	padding-top: 138px;
+	.container{
+		.item{
+			li{
+				padding-top: 20px;
+				padding-bottom: 120px;
+			}
+			span{
+				font-weight: bold;
+				font-size: 18px;
+				color: #000000;
+			}
+			div{
+				margin-top: 20px;
+			}
+			p{
+				color: #9e9e9e;
+				font-size: 14px;
+			}
+			form{
+				padding-top: 20px;
+				input{
+					@include input_mixin;
+					width:177px;
+					height: 50px;
+					font-style: italic;
+				}
+				button{
+					@include button_mixin;
+					height: 50px;
+					padding-right: 17px;
+					padding-left: 17px;
+				}
+			}
+		}
+		hr{
+			border-width: 2px;
+		}
+		.footer{
+			padding-bottom: 40px;
+			padding-top: 15px;
+			span{
+				color: #9e9e9e;
+				font-size: 14px;
+			}
+			.menu{
+				text-align: right;
+				ul{
+					li{
+						a{
+							color: #444444;
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/*----------------------------------------------------------end-footer------------------------*/
+$res_320 : "only screen and (min-width: 320px) and (max-width: 374px)";
+$res_375 : "only screen and (min-width: 375px) and (max-width: 424px)";
+$res_425 : "only screen and (min-width: 425px) and (max-width: 767px)";
+$res_768 : "only screen and (min-width: 768px) and (max-width: 991px)";
+$res_992 : "only screen and (min-width: 992px) and (max-width: 1023px)";
+$res_1024 : "only screen and (min-width: 1024px) and (max-width: 1999px)";
+$res_1200 : "only screen and (min-width: 1200px)";
+ 
+@mixin responsive_320() {
+    @media #{$res_320} {
+        @content;
+    }
+}
+@mixin responsive_375() {
+    @media #{$res_375} {
+        @content;
+    }
+}
+@mixin responsive_565() {
+    @media #{$res_565} {
+        @content;
+    }
+}
+@mixin responsive_425() {
+    @media #{$res_425} {
+        @content;
+    }
+}
+@mixin responsive_768() {
+    @media #{$res_768} {
+        @content;
+    }
+}
+@mixin responsive_992() {
+    @media #{$res_992} {
+        @content;
+    }
+}
+@mixin responsive_1024() {
+    @media #{$res_1024} {
+        @content;
+    }
+}
+@mixin responsive_1200() {
+    @media #{$res_1200} {
+        @content;
+    }
+}
+
+
+
+@include responsive_320{
+	section .main_content{
+		.item{
+			span.title{
+				font-size: 18px;
+				margin-top: 230px;
+				display: none;
+			}
+			span.title2{
+				display: block;
+				font-size: 14px;
+			}
+		}
+		.item .right{
+			width: 100%;
+			margin: 20px auto;
+			align-content: center;
+		}
+		.subcribe{
+			.extra{
+				display: none;
+			}
+			.mid{
+				width: 100%;
+			}
+			form{
+				text-align: center;
+				margin: 0px auto;
+				.form-control{
+					margin-left: 10px;
+					width: 150px;
+					height: 45px;
+					float: left;
+				}
+				button{
+					height: 45px;
+					padding-left: 15px;
+					padding-right: 15px;
+					float: left;
+				}
+				label{
+					width: 100%;
+					font-size: 18px;
+					float: none;
+					clear: both;
+				}
+
+			}
+		}
+	}
+	footer .container{
+		.item{
+			form{
+				display: none;
+			}
+		}
+	}
+} 
+
+@include responsive_375{
+	section .main_content{
+		.item{
+			span.title{
+				font-size: 18px;
+				margin-top: 230px;
+				display: none;
+			}
+			span.title2{
+				display: block;
+			}
+		}
+		.item .right{
+			width: 100%;
+			margin: 20px auto;
+			align-content: center;
+		}
+		.subcribe{
+
+			form{
+				text-align: center;
+				margin: 0px auto;
+				.form-control{
+					margin-left: 10px;
+					width: 150px;
+					height: 45px;
+					float: left;
+				}
+				button{
+					height: 45px;
+					padding-left: 15px;
+					padding-right: 15px;
+					float: left;
+				}
+				label{
+					width: 100%;
+					font-size: 18px;
+					float: none;
+					clear: both;
+				}
+
+			}
+		}
+	}
+	footer .container{
+		.item{
+			form{
+				display: none;
+			}
+		}
+	}
+} 
+
+@include responsive_425{
+	section .main_content{
+		.item{
+			span.title{
+				display: none;
+			}
+			span.title2{
+				display: block;
+
+			}
+		}
+		.item .right{
+			width: 370px;
+			margin: 20px auto;
+			align-content: center;
+		}
+		.subcribe{
+
+			form{
+				text-align: center;
+				margin: 0px auto;
+				.form-control{
+					margin-left: 10px;
+					width: 68%;
+					height: 45px;
+					float: left;
+				}
+				button{
+					height: 45px;
+					padding-left: 15px;
+					padding-right: 15px;
+					float: left;
+				}
+				label{
+					width: 100%;
+					font-size: 18px;
+					float: none;
+					clear: both;
+				}
+
+			}
+		}
+	}
+	footer .container{
+		.item{
+			form{
+				display: none;
+			}
+		}
+	}
+} 
+
+@include responsive_768{
+	section .main_content{
+		.item{
+			span.title{
+				margin-top: 160px;
+				margin-left: 20px;
+				font-size: 14px;
+			}
+		}
+		.subcribe{
+			form{
+				.form-control{
+					margin-left: 10px;
+					width: 300px;
+					height: 45px;
+				}
+				button{
+					height: 45px;
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+				label{
+					font-size: 15px;
+
+				}
+			}
+		}
+	}
+	footer .container{
+		.item{
+			form{
+				display: none;
+			}
+		}
+	}
+}
+ 	
+@include responsive_992{
+	section .main_content{
+		.item{
+			span.title{
+				margin-top: 200px;
+				margin-left: 30px;
+			}
+		}
+		.subcribe{
+			form{
+				.form-control{
+					margin-left: 10px;
+					width: 410px;
+				}
+				label{
+					font-size: 18px;
+				}
+			}
+		}
+	}
+	footer .container{
+		.item{
+			form{
+				padding-top: 20px;
+				input{
+					@include input_mixin;
+					width:140px;
+					height: 45px;
+					font-style: italic;
+				}
+				button{
+					@include button_mixin;
+					height: 45px;
+					padding-right: 12px;
+					padding-left: 12px;
+				}
+			}
+		}
+	}
+}
+ 
+@include responsive_1024{
+	section .main_content{
+		.item{
+			span.title{
+				margin-top: 200px;
+				margin-left: 30px;
+			}
+		}
+		.subcribe{
+			form{
+				.form-control{
+					margin-left: 10px;
+					width: 410px;
+				}
+				label{
+					font-size: 18px;
+				}
+			}
+		}
+	}
+	footer .container{
+		.item{
+			form{
+				padding-top: 20px;
+				input{
+					@include input_mixin;
+					width:140px;
+					height: 45px;
+					font-style: italic;
+				}
+				button{
+					@include button_mixin;
+					height: 45px;
+					padding-right: 12px;
+					padding-left: 12px;
+				}
+			}
+		}
+	}
+}
+@include responsive_1200{
+	section .main_content{
+		.item{
+			span.title{
+				margin-top: 255px;
+				margin-left: 30px;
+			}
+		}
+		.subcribe{
+			form{
+				.form-control{
+					margin-left: 73px;
+					width: 430px;
+				}
+				label{
+					font-size: 24px;
+				}
+			}
+		}
+	}
+	footer .container{
+		.item{
+			form{
+				padding-top: 20px;
+				input{
+					@include input_mixin;
+					width:177px;
+					height:50px;
+					font-style: italic;
+				}
+				button{
+					@include button_mixin;
+					height: 50px;
+					padding-right: 17px;
+					padding-left: 17px;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 650px) {
+  	header .toper_wrapper {
+  		.node{
+  			display: block;
+  		}
+  		.menu_wrapper{
+  			display: none;
+  			z-index: 10000;
+  			height: 500px;
+  		}
+  	}
+}
