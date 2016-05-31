@@ -1,5 +1,26 @@
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('../fonts/OpenSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/OpenSans-Light.ttf');
+}
+@font-face {
+  font-family: 'OpenSans-Semibold';
+  src: url('../fonts/OpenSans-Semibold.ttf');
+}
+
+
+
+
+
 body {
-  font-family: arial;
+  font-family: OpenSans-Regular;
   color: #252525;
 }
 
@@ -30,10 +51,10 @@ header .toper_wrapper {
   padding-bottom: 45px;
 }
 
-header .toper_wrapper .logo span {
+header .toper_wrapper .logo h1{
   color: #ffffff;
   font-size: 14px;
-  font-weight: bold;
+  font-family: OpenSans-Semibold;
 }
 
 header .toper_wrapper .node {
@@ -48,6 +69,7 @@ header .toper_wrapper .menu_wrapper {
   z-index: 100;
 }
 header .toper_wrapper .menu_wrapper .nav-stacked li a{
+  font-family: OpenSans-Regular;
 	color: #ffffff;
 }
 header .toper_wrapper .menu_wrapper .nav-stacked li li a{
@@ -82,6 +104,9 @@ header .toper_wrapper .menu_wrapper .list-inline .dropdown-menu li a:hover {
 .active {
   border-bottom: 2px solid #ffffff;
 }
+header .banner img{
+  height: auto;
+}
 
 /*----------------------------------------------------end_header---------------------------*/
 /*----------------------------------------------------start_content---------------------------*/
@@ -104,6 +129,7 @@ section .intro_content ul .left p {
 }
 
 section .intro_content ul .right p {
+  font-family: OpenSans-Regular;
   font-size: 14px;
   text-align: justify;
 }
@@ -178,7 +204,7 @@ section .main_content .subcribe form label {
 
 section .main_content .subcribe form .form-control {
   height: 60px;
-  width: 430px;
+  width: 424px;
   margin-left: 73px;
   border-color: #343638;
   border-radius: 0px;
@@ -210,8 +236,8 @@ footer .container .item{
 	padding-bottom: 120px;
 }
 
-footer .container .item span {
-  font-weight: bold;
+footer .container .item h4{
+  font-family: OpenSans-SemiBold;
   font-size: 18px;
   color: #000000;
 }

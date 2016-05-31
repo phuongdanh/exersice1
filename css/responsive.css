@@ -134,7 +134,7 @@
   }
   section .main_content .subcribe form .form-control {
     margin-left: 10px;
-    width: 300px;
+    width: 291px;
     height: 45px;
   }
   section .main_content .subcribe form button {
@@ -157,7 +157,7 @@
   }
   section .main_content .subcribe form .form-control {
     margin-left: 10px;
-    width: 410px;
+    width: 402px;
   }
   section .main_content .subcribe form label {
     font-size: 18px;
@@ -169,8 +169,8 @@
     border-color: #343638;
     border-radius: 0px;
     float: left;
-    width: 140px;
-    height: 45px;
+    width: 131px;
+    height: 40px;
     font-style: italic;
   }
   footer .container .item form button {
@@ -179,7 +179,7 @@
     border: none;
     border-radius: 0px;
     float: left;
-    height: 45px;
+    height: 40px;
     padding-right: 12px;
     padding-left: 12px;
   }
@@ -192,7 +192,7 @@
   }
   section .main_content .subcribe form .form-control {
     margin-left: 10px;
-    width: 410px;
+    width: 402px;
   }
   section .main_content .subcribe form label {
     font-size: 18px;
@@ -227,7 +227,7 @@
   }
   section .main_content .subcribe form .form-control {
     margin-left: 73px;
-    width: 430px;
+    width: 424px;
   }
   section .main_content .subcribe form label {
     font-size: 24px;
@@ -269,4 +269,11 @@
   	margin: 0px;
   	padding: 0px;
   }
+
 }
+ 
+@media only screen and (min-width: 1200px) {
+  header .banner img{
+    height: 630px;
+  }
+  }
